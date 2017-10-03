@@ -10,7 +10,7 @@
           <div class="chat-para">这事测试为你这事测试为你这事测试为你这事测试为你这事测试为你这事测试为你这事测试为你这事测试为你</div>
         </div>
       </div>
-      <tab-bar activebar="1"></tab-bar>
+      <tab-bar activebar="2"></tab-bar>
   </div>
 </template>
 

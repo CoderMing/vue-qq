@@ -27,15 +27,10 @@ export default {
       user_passwd: ''
     }
   },
-  computed: {
-    qzone () {
-      return this.$store.state.qzone
-    }
-  },
   methods: {
     async signin () {
       console.log(this.user_id, this.user_passwd)
-      console.log(await apiLogin(this.uer_id, this.user_passwd))
+      console.log(await apiLogin({ user_id: this.user_id, user_passwd: this.user_passwd }))
     }
   }
 }

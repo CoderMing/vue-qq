@@ -1,6 +1,12 @@
-# my-vue
+# 🐧vue-qq
 
-> A Vue.js project
+本项目是基于vue全家桶实现的一个仿tim版QQ，主要用来熟悉vue全家桶开发。
+
+项目在持续开发中，我会不定期的写一些踩坑经验，欢迎大家关注和star。
+
+
+
+### 
 
 ## Build Setup
 
@@ -18,4 +24,4 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+

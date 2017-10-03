@@ -1,15 +1,16 @@
 import axios from 'axios'
 import devConf from '../dev-config'
 
-async function loginFuc (user_id, user_passwd) {
+async function loginFuc (obj) {
   return await axios({
     url: `${devConf.API_URL}/login`,
     method: 'POST',
     data: {
-      user_id,
-      user_passwd
+      user_id: obj.user_id,
+      user_passwd: obj.user_passwd
     }
   })
+    .then(e => e.data)
 }
 
 export default loginFuc
