@@ -1,27 +1,43 @@
 # 🐧vue-qq
 
-本项目是基于vue全家桶实现的一个仿tim版QQ，主要用来熟悉vue全家桶开发。
+本项目是基于vue全家桶实现的一个仿TIM版QQ，使用NodeJS开发后台，主要用来熟悉vue全家桶和NodeJS的开发。
 
 项目在持续开发中，我会不定期的写一些踩坑经验，欢迎大家关注和star。
 
 
 
-### 
+### 运行环境
 
-## Build Setup
+本项目使用了很多比较新的属性和API（eg: gird，async）
 
-``` bash
-# install dependencies
-npm install
+本人的开发环境为：
 
-# serve with hot reload at localhost:8080
-npm run dev
+- NodeJS v8.3.0
+- Chrome 60.0
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+
+### 目标功能
+
+后面带有日期的是完成日期，什么都没加的代表尚未完成😂
+
+- 注册登录
+- 个人资料
+- 加好友
+- 不常用联系人
+- QQ群
+- 引入机器对话api
+- 即时聊天
+- QQ空间
+  - 发说说，评论，回复，点赞
+  - 发图片
+  - 个人空间主页
+
+
+
+### 后端代码
+
+在项目的SERVER文件夹下。由于还在初期开发，还没做配置文件。
+
 
 

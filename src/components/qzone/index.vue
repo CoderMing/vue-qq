@@ -1,6 +1,7 @@
 <template>
   <div id="container">
       <div id="title">
+        <router-link to="/user">BACK</router-link>
         消息
       </div>
       <div id="mainsite" @click="count">
@@ -54,7 +55,7 @@ export default {
   #title
     fixed 0 0
     size 100vw 12vw
-    background rgba(255, 255, 255, .5)
+    background rgba(255, 255, 255, .7)
     color #000
     text-align center
     line-height @height
@@ -70,7 +71,8 @@ export default {
     .qzone-item
       size 100vw auto
       border-top 3vw solid #ececec
-      padding 3vw 1vw 5vw
+      padding 3vw 0 5vw
+      box-sizing border-box
       
       .qi-avator
         float left
