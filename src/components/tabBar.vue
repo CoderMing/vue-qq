@@ -35,7 +35,7 @@ a
 	
 .bar-item
 	size 100%
-	background url(../assets/test.png) no-repeat center center / 10vw 10vw
+	background no-repeat center center / 10vw 10vw
 	
 .to1
 	background-image url(../assets/chat.png)

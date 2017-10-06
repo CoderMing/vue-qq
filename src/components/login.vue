@@ -3,7 +3,7 @@
       <div id="avator">
         <div id="ava-sc1"></div>
         <div id="ava-sc2"></div>
-        <div id="ava-img"><img src="../assets/logo.png"></div>
+        <input type="file" id="ava-img"></input>
       </div>
       <div id="mainsite">
         <div id="login">
@@ -29,7 +29,6 @@ export default {
   },
   methods: {
     async signin () {
-      console.log(this.user_id, this.user_passwd)
       console.log(await apiLogin({ user_id: this.user_id, user_passwd: this.user_passwd }))
     }
   }
@@ -55,14 +54,13 @@ export default {
       size 25vw
       middleAbsolute ()
       margin-top -(@height / 1.6)
+      background url(../assets/logo.png) white center center no-repeat / 100% 100%
+      outline none
       border-radius 50%
       overflow hidden
       border 4px solid rgba(240, 240, 240, .5)
       box-shadow 0px 0px 2px 2px rgba(240, 240, 240, .2)
       
-      img
-        size 100%
-        background white
       
     #ava-sc1
       size 200vw 200vw
